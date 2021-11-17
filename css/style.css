@@ -1,0 +1,864 @@
+.page-loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+}
+.loader{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+}
+.loader img{
+    width: 240px;
+}
+
+/* start top-header part */
+.top-header{
+    padding: 15px 0;
+    z-index: 11;
+    position: relative;
+    clear: both;
+}
+.top-header .email{
+    margin: 20px 0;
+}
+.top-header .contact{
+    margin: 20px 0;
+}
+.top-header .contact a{
+    line-height: 50px;
+    text-decoration: none;
+    color: #333;
+    height: 50px;
+}
+.top-header .contact img{
+    margin: -2px 13px 0 0;
+}
+.top-header .email a{
+    line-height: 50px;
+    text-decoration: none;
+    color: #333;
+    height: 50px;
+}
+.top-header .email img{
+    margin: -2px 13px 0 0;
+}
+
+/* start nav-bg */
+.nav-bg{
+    margin: 15px 0;
+    background: #70b84d;
+    height: 50px;
+}
+.nav-bg ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-bg ul li{
+    display: inline-block;
+    width: 185px;
+    float: left;
+    line-height: 50px;
+    padding-top: 0;
+}
+.nav-bg ul li>a{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #333;
+}
+.nav-bg ul li:hover a{
+    color: #fff;
+ }
+
+.header-slider{
+    position: relative;
+    top:20px;
+    z-index: 10;
+}
+.header-slider .carousel-item .carousel-caption h1{
+    text-align: left;
+    font-size: 82px;
+    /* margin: 20px 0 100px 0; */
+    position: absolute;
+    top: -562px;
+    color: #35a30a;
+    line-height: 101px;
+}
+.header-slider .carousel-item .carousel-caption h1 strong{
+    color: #000000;
+    font-weight: 500;
+}
+.header-slider .carousel-item .carousel-caption a{
+    background: #fff;
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    height: 50px;
+    color: #000;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #35a30a;
+    position: absolute;
+    top:-266px;
+    transition: 0.4s;
+}
+.header-slider .carousel-item .carousel-caption a:hover{
+    background-color: #35a30a;
+    color: #fff;
+}
+.header-slider .carousel-indicators{
+    display: block;
+    right: 10px;
+    left: 77%;
+    bottom: 181px;
+    position: absolute;
+}
+.header-slider .carousel-indicators li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #000;
+    float: none;
+    margin: 10px 0;
+}
+.header-slider .carousel-indicators li.active{
+    background-color: #35a30a;
+}
+
+
+
+/* start section About################################################################################################################ */
+.about{
+   position: relative;
+   padding: 20px 0;
+   clear: both;
+}
+.about::before{
+    content: "";
+    background: url(../images/croos.png);
+    background-size: 100% 100%;
+    height: 270px;
+    position: absolute;
+    width: 100%;
+    top: -410px;
+    z-index: 13;
+ }
+ 
+.about .about-info{
+    padding: 10px 15px;
+    box-shadow: 10px -10px 10px rgb(0 0 0 / 10%);   
+}
+.about .about-info h2{
+    font-size: 58px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0 0 36px 0;
+}
+.about .about-info p{
+    text-align: justify;
+    line-height: 1.85;
+    color: #7d7d7d;
+}
+.about .about-img img{
+    max-width: 100%;
+}
+/* start section yoga################################################################################################################################### */
+.yoga{
+    padding: 30px 0;
+    position: relative;  
+}
+.yoga .yoga-header h2{
+    text-align: center;
+    margin: 36px 0;
+    font-size: 47px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #58c62c;
+    text-transform: capitalize;  
+}
+.yoga .yoga-header strong{
+    color: #333;
+    font-weight: 600;  
+}
+
+.yoga .yoga-two img,
+.yoga .yoga-three img{
+   max-width: 100%; 
+   margin: 0; 
+}
+.yoga .yoga-one img{
+    max-width: 100%; 
+   margin: 0 0 0 39px; 
+}
+
+.yoga .yoga-one h3,
+.yoga .yoga-two h3,
+.yoga .yoga-three h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 17px 0 0 0;
+}
+.yoga .yoga-one p,
+.yoga .yoga-two p,
+.yoga .yoga-three p{
+    text-align: center;
+    margin: 18px 0 0 0;
+    color: #7d7d7d;
+    line-height: 1.8;
+}
+.yoga .bc-btn{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    width150px: height;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #58c62c;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    margin: 55px 0 0 0;
+    transition: 0.4s;
+}
+.yoga .bc-btn:hover{
+   background-color:#58c62c ;
+   color: #fff;
+}
+/* start your life yoga */
+.life-yoga{
+    padding: 30px 0;
+    box-shadow: 0 -10px 10px rgb(0 0 0 / 10%);
+    margin: 30px 0 0 0;
+}
+.life-yoga .life-header h2{
+    color: #58c62c;
+    margin: 47px auto;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.life-yoga .life-body img{
+    max-width: 100%;
+}
+.life-yoga .life-body img{
+    max-width: 100%;
+}
+.life-yoga .life-body p{
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #58c62c;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+/* start pricing section################################################################################################################ */
+.pricing{
+    padding: 30px 0;
+    position: relative;
+    box-shadow: 0 -10px 10px rgb(0 0 0 / 10%);
+    margin: 30px 0 0 0;
+}
+.pricing h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 50px;
+    color: #58c62c;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.pricing h2>span{
+    color: #333;
+    font-weight: 500;
+}
+
+.pricing .one h3{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.pricing .one span{
+    display: block;
+    text-align: center;
+    margin: 93px 0 15px 0;
+    font-size: 62px;
+    font-weight: 600;
+    color: #58c62c;
+}
+.pricing .one p{
+    text-align: center;
+    line-height: 1.8;
+}
+.pricing .one .linko{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #58c62c;
+    line-height: 50px;
+    color: #333;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin: 27px auto;
+    transition: 0.4s;
+}
+.pricing .one .linko:hover{
+   color: #fff;
+   background-color: #000;
+   border: 1px solid #000;
+}
+
+.pricing .two{
+   position: relative;
+   box-shadow: #dddd 0px 0px 18px 6px;
+   padding: 0
+}
+.pricing .two h3{
+    background: #58c62c;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.pricing .two span{
+    display: block;
+    text-align: center;
+    margin: 42px 0 15px 0;
+    font-size: 62px;
+    font-weight: 600;
+    color: #58c62c;
+}
+.pricing .two p{
+    text-align: center;
+    line-height: 1.8;
+}
+.pricing .two::after{
+    content: "";
+    position: absolute;
+    background: url(../images/img.png);
+    width: 100%;
+    height: 22%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 1px;
+    bottom: -33px;
+}
+.pricing .two .linko{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #58c62c;
+    line-height: 50px;
+    color: #333;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin: 27px auto;
+    transition: 0.4s;
+}
+.pricing .two .linko:hover{
+   color: #fff;
+   background-color: #000;
+   border: 1px solid #000;
+}
+/* start section newset############################################################################################################ */
+.newset{
+    background: #58c62c;
+    height: 261px;
+    padding: 30px 0;
+    position: relative;
+}
+.newset h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;;
+}
+
+.newset form{
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newset form .inp-em{
+    display: inline-block;
+    width: 48%;
+    height: 50px;
+    text-indent: 4px;
+    padding: 4px;
+    /* margin: 0 auto; */
+    outline: none;
+    border: none;
+}
+.newset form .sub{
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #000;
+    border: none;
+}
+/* start online yoga#################################################################################################################### */
+.online-yoga{
+    padding: 40px 0;
+    margin: 30px 0;
+    position: relative;
+}
+.online-yoga h3{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #58c62c;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+.online-yoga h3>strong{
+    color: #000;
+    font-weight: 500;
+}
+.online-yoga .yoga-box{
+    background: #58c62c;
+    margin: 160px 0 0 0;
+    position: relative;
+    height: 433px;
+}
+.online-yoga .yoga-box>img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -100px;
+}
+
+/* start section contact################################################################################################################# */
+.contact{
+    position: relative;
+    padding: 30px 0 0;
+    overflow: hidden;
+}
+.contact h2{
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #58c62c;
+    margin: 0 0 32px;
+}
+.contact h2>strong{
+    color: #333;
+    font-weight: 500;
+}
+.contact .formas{
+    background: #13240c;
+    padding: 40px 63px;
+    padding-left: 224px;
+}
+.contact .formas input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    outline: none;
+    color: #fff;
+    padding: 4px 0;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.contact .formas input::placeholder{
+   text-transform: uppercase;
+}
+.contact .formas textarea{
+    width: 100%;
+    height:105px;
+    margin-bottom: 15px;
+    outline: none;
+    /* text-indent: 0px; */
+    padding: 4px 0;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.contact .formas button{
+    width: 100px;
+    height: 41px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 83%;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+.contact .lower{
+    background: #13240c;
+    height: 200px;
+}
+.contact .lower .phon,
+.contact .lower .mess{
+    color: #fff;
+    display: inline-block;
+   
+}
+.contact .lower .phon img,
+.contact .lower .mess img{
+    display: inline-block;
+    margin-right: 9px;
+    width: 19px;
+}
+.contact .lower .phon{
+    margin-right: 15px;
+}
+.contact .lower .socials{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: block;
+    height: 50px;
+  
+}
+.contact .lower .socials li{
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+.contact .lower .socials li>i{
+    color: #fff;
+    width: 30px;
+    display: block;
+    height: 30px;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-indent: 5px;
+}
+
+.contact .form-side{
+    padding-right: 0;
+}
+.contact .map-side{
+    padding-left: 0;
+}
+.contact .map-side iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* start section footer################################################################################################################# */
+.footer{
+    background: #58c62c;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* -----------------------start query screens-------------------------------- */
+/* -------------------------small scren------------------------------ */
+@media (max-width: 576px){ 
+    .header-slider .carousel-item .carousel-caption h1 {
+        top: -247px!important;
+        font-size: 40px!important;
+        line-height: 51px!important;
+    }
+    .header-slider .carousel-item .carousel-caption a {
+        top: -80px!important;
+    }
+    .top-header .flex-tog{
+        background: #333;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        margin: 6px 0 0 8px;
+    }
+    .top-header .flex-tog span{
+        font-size: 30px;
+        color: #fff;
+        line-height: 40px;
+        padding: 0 0 0 7px;
+    }
+    .top-header .nav-bg .flex-sl ul li a:hover{
+        color: #fff;
+     }
+}
+/* -----------------------------------small screen-------------------------------- */
+@media (max-width:767px){
+    .top-header .nav-bg{
+        position: relative;
+    }
+    .header-slider {
+        top: -28px;
+    }
+    .top-header .nav-bg .flex-sl{
+        display: none;
+        height: 300px;
+        background: #70b84d;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50px;
+    }
+    .top-header .nav-bg .flex-sl ul li{
+        float: none;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        height: 50px;
+    }
+    .top-header .nav-bg .flex-sl ul li:hover a{
+        color: #fff;
+    }
+    .top-header .nav-bg ul li  a {
+        text-align: left;
+        padding: 0 0 0 20px;
+        color: #333;
+    }
+    .top-header .nav-bg ul li  a:hover {
+        color: #fff;
+    }
+    .top-header .flex-icon{
+      visibility: hidden!important;
+    }
+    .top-header .flex-ic{
+        height: 50px;
+      }
+      .top-header .flex-ic .logo img{
+        height: 40px;
+        display: block;
+      }
+      .top-header .flex-icon{
+        display: none;
+      }
+      .top-header .flex-ic{
+          height: 50px;
+      }
+      .top-header .flex-ic .logo img{
+          display: block;
+          margin: 0 auto;
+        }
+    .about::before {
+        background: none;
+       content: none;
+    }
+    .header-slider .carousel-item .carousel-caption h1 {
+        top: -312px;
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .header-slider .carousel-item .carousel-caption a {
+        top: -105px;
+    }
+    .header-slider .carousel-indicators {
+        bottom: 98px;
+    }
+    .top-header .flex-tog{
+        background: #333;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        margin: 6px 0 0 8px;
+        cursor: pointer;
+    }
+    .top-header .flex-tog span{
+        font-size: 30px;
+        color: #fff;
+        line-height: 40px;
+        padding: 0 0 0 7px;
+        
+    }
+    .yoga .yoga-one img {
+        margin: 0 auto;
+        display: block;
+    }
+    .yoga .yoga-two img, .yoga .yoga-three img {
+        display: block;
+        margin: 25px auto;
+    }
+    .yoga .bc-btn {
+        margin: 25px auto;
+    }
+    .pricing .two {
+        margin: 20px 0 55px;
+    }
+    .newset h2 {
+        font-size: 37px;
+    }
+    .online-yoga .yoga-box {
+        margin: 117px 0 0 0;
+    }
+    .online-yoga h3 {
+        font-size: 38px;
+        letter-spacing: 1px;
+    }
+    .online-yoga .yoga-box {
+        height: 240px;
+    }
+    .online-yoga .yoga-box > img {
+        width: 84%;
+        top: -54px;
+        height: 235px;
+    }
+    .contact .formas {
+        padding-left: 40px;
+    }
+    .contact .lower {
+        padding: 0 0 0 40px;
+    }
+    .contact .formas button {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+}
+/* --------------------------------------meduim screen size---------------------------------- */
+@media (min-width:768px){
+    .header-slider {
+        top: -30px;
+    }
+    .header-slider .carousel-item .carousel-caption h1 {
+        font-size: 46px;
+        top: -360px;
+        line-height: 60px;
+    
+    }
+    .top-header .contact {
+        visibility: hidden;
+    }
+    .top-header .flex-tog span {
+        display: none;
+    }
+    .nav-bg ul li {
+        display: inline-block!important;
+        width: 16%;
+    }
+    .top-header .nav-bg .flex-sl {
+        display: block!important;
+    }
+    .about::before {
+        content: none
+    }
+    .header-slider .carousel-item .carousel-caption a {
+        top: -136px;
+    }
+    .header-slider .carousel-indicators {
+        bottom: 30px;
+    }
+    .yoga .yoga-one img {
+        max-width: 69%;
+        margin: 0 0 0 39px;
+    }
+    .yoga .yoga-two img{
+        max-width: 86%;
+        margin-left: -30px;
+    }
+    .yoga .yoga-three img {
+        max-width: 128%;
+        margin-left: -30px;
+    }
+    .yoga .yoga-one p, .yoga .yoga-two p, .yoga .yoga-three p {
+        color: #333;
+        line-height: 1.5;
+    }
+    .yoga .yoga-one h3, .yoga .yoga-two h3, .yoga .yoga-three h3 {
+        font-size: 25px;
+    }
+    .life-yoga .life-header h2 {
+        font-size: 45px;
+        letter-spacing: 1px;
+    }
+    .online-yoga .yoga-box {
+        height: 256px;
+    }
+    .contact .formas {
+        /* padding-left: 22px; */
+        padding: 29px 22px;
+    }
+    .contact .formas button {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .contact .lower {
+        padding-left: 22px;
+    }
+}
+/* -----------------------------------------large screen---------------------------------------------- */
+@media (min-width:1200px){
+    .top-header .flex-icon {
+       visibility: visible!important;
+    }
+    .top-header .contact {
+        visibility: visible;
+        margin: 0;
+    }
+    .about::before{
+        content: "";
+        top: -298px;
+     }
+     .header-slider .carousel-item .carousel-caption h1 {
+        top: -608px;
+    }
+    .header-slider .carousel-indicators {
+        bottom: 217px;
+    }
+    .header-slider .carousel-item .carousel-caption a {
+        top: -361px;
+    }
+    .online-yoga .yoga-box {
+        height: 387px;
+    }
+}
